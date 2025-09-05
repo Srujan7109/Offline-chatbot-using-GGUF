@@ -56,7 +56,7 @@ function App() {
     setAnswer("");
 
     try {
-      const response = await fetch("http://localhost:3001/api/ask", {
+      const response = await fetch("https://offline-chatbot-using-gguf.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
